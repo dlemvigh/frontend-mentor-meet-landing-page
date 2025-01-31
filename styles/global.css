@@ -35,6 +35,30 @@ body {
 .button-purple:hover {
     background-color: var(--color-purple-600-hover);
 }
+.number {
+    position: relative;
+    border: 1px solid var(--color-slate-300);
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    margin: 120px auto 0;
+    color: var(--color-slate-600);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -28px;
+    background-color: white;
+    z-index: 1;
+}
+.number::before {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    border-left: 1px solid var(--color-slate-300);
+    height: 80px;
+}
 
 .text-preset-1 {
     font-family: "Red Hat Display", sans-serif;
