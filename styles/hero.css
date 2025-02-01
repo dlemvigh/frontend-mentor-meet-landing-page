@@ -31,6 +31,9 @@
     .hero-container {
         width: 450px;
     }
+    .hero-image-tablet-mobile {
+        display: none;
+    }
 }
 
 @media (width < 1200px) {
