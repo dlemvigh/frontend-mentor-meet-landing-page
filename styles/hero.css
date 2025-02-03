@@ -2,12 +2,15 @@
     display: flex;
     justify-content: space-between;
     align-items: start;    
+    column-gap: 32px;
 }
-.hero-container {
+.hero-text-container {
     text-align: center;
     display: flex;
     flex-direction: column;
     gap: 32px;
+    max-width: 450px;
+    margin: auto;
 }
 
 .hero-title {
@@ -25,6 +28,7 @@
 }
 .hero-image-tablet-mobile {
     width: 100%;
+    margin-bottom: 32px;
 }
 
 @media (width >= 1200px) {
